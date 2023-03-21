@@ -1,0 +1,62 @@
+  body{
+  margin: 0;
+  font-size: 28px;
+  }
+  .header{
+    text-align: center;
+    background-color:  #f1f1f1;
+    padding :30px;
+  }
+.truongtin{
+    padding:10px 20px;;
+    background-color: azure;
+    border-radius: 20px;
+}
+#truongtin1{
+    overflow: hidden;
+    background-color: #333;
+}
+#truongtin1 a {
+    color:white;
+    padding:10px 20px;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 16px;
+}
+#truongtin1 a:hover{
+    background-color: rgb(173, 222, 169);
+    color:rgb(7, 7, 7);
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
+input[type=text],select{
+  box-sizing: border-box;
+  width: 100%;
+  display: inline-block;
+  padding:12px 20px;
+  border-radius: 5px;
+  margin: 8px 0
+  }
+  input[type=submit]{
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgb(9, 92, 92);
+    color: aliceblue;
+    text-align: center;
+    padding:12px 20px;
+    cursor:pointer;
+    font-weight: bolder;
+    margin: 8px 0;
+  }
+  input[type=submit]:hover{
+    background-color: aqua;
+    color:rgb(54, 49, 49);
+    
+  }
